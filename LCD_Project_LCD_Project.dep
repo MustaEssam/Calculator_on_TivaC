@@ -1,0 +1,44 @@
+Dependencies for Project 'LCD_Project', Target 'LCD_Project': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5A17E1C3)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.c)(0x5A19535A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (LCDHeader.h)(0x5A17C761)
+I (keyPad.h)(0x5A12FBA3)
+I (functions.h)(0x5A194EA5)
+I (D:\Programs\Kiel\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (D:\Programs\Kiel\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (.\initialization.c)(0x5A17CB71)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\initialization.o --omf_browse .\initialization.crf --depend .\initialization.d)
+I (tm4c123gh.h)(0x59F4ADA4)
+I (LCDHeader.h)(0x5A17C761)
+F (.\Delay.c)(0x59F4AD9E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (LCDHeader.h)(0x5A17C761)
+F (.\Documentation.c)(0x59F4AD9E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\documentation.o --omf_browse .\documentation.crf --depend .\documentation.d)
+F (.\tm4c123gh6pm.h)(0x59F4ADA4)()
+F (..\KeyPad\keyPad.h)(0x00000000)()
+F (.\Dec_char.c)(0x5A1802B7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\dec_char.o --omf_browse .\dec_char.crf --depend .\dec_char.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (functions.h)(0x5A194EA5)
+I (D:\Programs\Kiel\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (LCDHeader.h)(0x5A17C761)
+F (.\functions.h)(0x5A194EA5)()
+F (.\change_decimal.c)(0x5A17F6B3)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\change_decimal.o --omf_browse .\change_decimal.crf --depend .\change_decimal.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (functions.h)(0x5A194EA5)
+I (D:\Programs\Kiel\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (D:\Programs\Kiel\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (.\compute.c)(0x5A17D17C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\compute.o --omf_browse .\compute.crf --depend .\compute.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (functions.h)(0x5A194EA5)
+I (D:\Programs\Kiel\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (D:\Programs\Kiel\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (.\LED.c)(0x5A194EC6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (D:\Programs\Kiel\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (functions.h)(0x5A194EA5)
+F (.\Get_Key.c)(0x5A17CA61)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\get_key.o --omf_browse .\get_key.crf --depend .\get_key.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (keyPad.h)(0x5A12FBA3)
+F (.\key_Pad_init.c)(0x5A1312FB)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Programs\Kiel\ARM\RV31\INC-I D:\Programs\Kiel\ARM\CMSIS\Include-I D:\Programs\Kiel\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\key_pad_init.o --omf_browse .\key_pad_init.crf --depend .\key_pad_init.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (keyPad.h)(0x5A12FBA3)
